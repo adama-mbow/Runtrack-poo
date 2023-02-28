@@ -4,7 +4,7 @@ class Personne:
         self.nom = nom
 
     def Sepresenter(self):
-        print("je m'appelle" + self.prenom, self.nom)
+        print("je m'appelle " + self.prenom, self.nom)
 
 Personne1 = Personne("jean", "smith")
-Personne1.Sepresenter
+Personne1.Sepresenter()

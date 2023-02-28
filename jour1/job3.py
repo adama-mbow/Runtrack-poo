@@ -9,4 +9,4 @@ class Operation:
 
 operation = Operation(12, 25)
 print(operation)
-operation.addition
+operation.addition()
