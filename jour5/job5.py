@@ -4,4 +4,4 @@ def fibo(n):
     else:
         return fibo(n - 1) + fibo(n - 2)
     
-print(fibo(0))
+print(fibo(8))
